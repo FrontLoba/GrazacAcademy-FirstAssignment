@@ -262,9 +262,8 @@ footer {
 }
 
 .Upfoot-2 {
-    padding: 20px 0 0 20px;
-    margin-left: 50px;
-    
+    padding: 20px 0 0 0;
+    margin-left: 200px;
 }
 
 .Upfooter h5 {
