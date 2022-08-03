@@ -43,6 +43,9 @@ header {
     text-decoration: none;
     color: #000000;
 }
+.nav-bar a:hover {
+    font-weight: bold;
+}
 
 /* This is the hero section */
 section.hero {
@@ -98,8 +101,8 @@ section.hero {
     border-radius: 100%;
     position: absolute;
     z-index: -1;
-    margin-top: -60px;
-    margin-left: 610px;
+    margin-top: -50px;
+    margin-left: 600px;
 }
 
 /* This is the second section  */
@@ -177,17 +180,20 @@ hr {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 80px;
-    background-color: #F9F3FF;
+    padding: 80px 0 0 0;
+    background: #F9F3FF;
 }
+/* .section-3 div {
+        border: 1px solid black;
+} */
 
 .img-phone {
     padding-left: 80px;
-    flex: 45%;
+    flex: 40%;
 }
 .phone-article {
-    margin-top: 0px;
-    flex: 55%;
+    padding-left: 50px;
+    flex: 60%;
 }
 .phone-article h2 {
     font-weight: 600;
@@ -195,6 +201,7 @@ hr {
 }
 .phone-article p {
     width: 400px;
+    /* padding-right: 300px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
