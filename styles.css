@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -14,18 +15,19 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* border-bottom: 1px solid; */
 }
 
 .logo {
-    padding: 20px 67px;
+    padding: 20px 50px;
     flex: 40%;
-    /* border: 1px solid black; */
+}
+
+.short-menu {
+    display: none;
 }
 
 .nav-bar {
     flex: 60%;
-    /* border: 1px solid black; */
 }
 
 .nav-bar ul {
@@ -71,6 +73,7 @@ section.hero {
 .article {
     flex: 40%;
     padding: 170px 30px 0 10px;
+    color: #222222;
     /* border: 1px solid black; */
     
 }
@@ -101,8 +104,8 @@ section.hero {
     border-radius: 100%;
     position: absolute;
     z-index: -1;
-    margin-top: -50px;
-    margin-left: 600px;
+    margin-top: -70px;
+    margin-left: 610px;
 }
 
 /* This is the second section  */
@@ -304,7 +307,7 @@ footer {
     height: 50px;
     border-radius: 100%;
     margin-left: 30px;
-    border: 1px solid #FFFFFF;
+    border: 0.5px solid #FFFFFF;
     
 }
 .logo-shot {
@@ -316,3 +319,4 @@ footer {
     position: relative;
     left: 15px;
 }
+
